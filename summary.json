@@ -1,0 +1,242 @@
+{
+  "counters": {},
+  "hardware": {
+    "A64 Controller SN": "CZPX2221X009XC05147",
+    "Ambient Temperature": 25.1,
+    "Blower fan [rpm]": 0,
+    "CPU Temperature": 51.6,
+    "CPU times": [
+      80.17,
+      0.0,
+      29.89,
+      1927.61,
+      11.77,
+      0.0,
+      0.41,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "CPU usage per core": [
+      4.8,
+      4.4,
+      4.7,
+      4.7
+    ],
+    "Cover State": true,
+    "Free Space in eMMC": [
+      738115584,
+      509009920,
+      172736512,
+      74.7
+    ],
+    "Language": "LANG=en_US.UTF-8",
+    "MC FW version": "1.0.0",
+    "MC HW Reversion": "6c",
+    "MC Serial number": "CZPX1421X012X105043",
+    "Power Supply Voltage": 24.403000000000002,
+    "Power Switch State": false,
+    "RAM statistics": [
+      1040568320,
+      683790336,
+      34.3,
+      285712384,
+      451846144,
+      207245312,
+      197427200,
+      11563008,
+      291446784,
+      56909824,
+      65224704
+    ],
+    "Rear fan [rpm]": 0,
+    "Resin Sensor State": true,
+    "UV LED Line 1 Voltage": 0.0,
+    "UV LED Line 2 Voltage": 0.0,
+    "UV LED Line 3 Voltage": 0.0,
+    "UV LED Temperature": -40.0,
+    "UV LED fan [rpm]": 0
+  },
+  "network": {
+    "eth0": {
+      "mac": "10:9C:70:14:6C:2B",
+      "state": 20
+    },
+    "lo": {
+      "mac": "00:00:00:00:00:00",
+      "state": 10
+    },
+    "primary_conn_type": "802-11-wireless",
+    "wifi_enabled": true,
+    "wlan0": {
+      "address": [
+        {
+          "address": "10.156.120.234",
+          "prefix": 24
+        }
+      ],
+      "dhcp": true,
+      "dns": [
+        {
+          "address": "149.156.96.8"
+        },
+        {
+          "address": "149.156.119.130"
+        }
+      ],
+      "gateway": "10.156.120.223"
+    }
+  },
+  "statistics": {
+    "Display Time Counter [h]": 0.0,
+    "UV LED Time Counter [h]": 66.95388888888888,
+    "finished_projects": 33,
+    "last_reboot": "2021-06-14 13:22:14",
+    "layers": 30362,
+    "reboot_counter": 1,
+    "started_projects": 33,
+    "total_seconds": 409953.1154265404
+  },
+  "system": {
+    "raucb updates": {
+      "0": "Error getting info from /run/media/system/sda1/prusa3d_fw_1_6_0_SL1_SL1S.raucb",
+      "1": "Error getting info from /run/media/system/sda1/1.6.0.raucb"
+    },
+    "slots info": {
+      "boot_primary": "rootfs.1",
+      "booted": "B",
+      "compatible": "prusa64-sl1--prusa",
+      "slots": [
+        {
+          "etcfs.0": {
+            "boot_status": null,
+            "bootname": null,
+            "class": "etcfs",
+            "device": "/dev/mmcblk2p4",
+            "mountpoint": null,
+            "parent": "rootfs.0",
+            "slot_status": {
+              "bundle": {
+                "compatible": null
+              }
+            },
+            "state": "inactive",
+            "type": "ext4"
+          }
+        },
+        {
+          "rootfs.1": {
+            "boot_status": "good",
+            "bootname": "B",
+            "class": "rootfs",
+            "device": "/dev/mmcblk2p3",
+            "mountpoint": "/",
+            "parent": null,
+            "slot_status": {
+              "activated": {
+                "count": 1,
+                "timestamp": "2021-06-14T11:24:52Z"
+              },
+              "bundle": {
+                "build": "20210401162956",
+                "compatible": "prusa64-sl1--prusa",
+                "description": "sla-update-bundle version 1.0-r0",
+                "version": "1.5.0"
+              },
+              "checksum": {
+                "sha256": "ac193bf30a43129ad3611a916f4c189a858ee24613efe3066c7f6f2bf8faf357",
+                "size": 805306368
+              },
+              "installed": {
+                "count": 1,
+                "timestamp": "2021-06-14T11:24:45Z"
+              },
+              "status": "ok"
+            },
+            "state": "booted",
+            "type": "ext4"
+          }
+        },
+        {
+          "bootloader.0": {
+            "boot_status": null,
+            "bootname": null,
+            "class": "bootloader",
+            "device": "/dev/mmcblk2",
+            "mountpoint": null,
+            "parent": null,
+            "slot_status": {
+              "bundle": {
+                "compatible": null
+              }
+            },
+            "state": "inactive",
+            "type": "boot-emmc"
+          }
+        },
+        {
+          "rootfs.0": {
+            "boot_status": "good",
+            "bootname": "A",
+            "class": "rootfs",
+            "device": "/dev/mmcblk2p2",
+            "mountpoint": null,
+            "parent": null,
+            "slot_status": {
+              "bundle": {
+                "compatible": null
+              }
+            },
+            "state": "inactive",
+            "type": "ext4"
+          }
+        },
+        {
+          "etcfs.1": {
+            "boot_status": null,
+            "bootname": null,
+            "class": "etcfs",
+            "device": "/dev/mmcblk2p5",
+            "mountpoint": "/etc",
+            "parent": "rootfs.1",
+            "slot_status": {
+              "bundle": {
+                "build": "20210401162956",
+                "compatible": "prusa64-sl1--prusa",
+                "description": "sla-update-bundle version 1.0-r0",
+                "version": "1.5.0"
+              },
+              "checksum": {
+                "sha256": "04f6b4588b1ee4047d30e80c2e25bf45e01d71ae31cf8434e28375e85796fad1",
+                "size": 33554432
+              },
+              "installed": {
+                "count": 1,
+                "timestamp": "2021-06-14T11:24:52Z"
+              },
+              "status": "ok"
+            },
+            "state": "active",
+            "type": "ext4"
+          }
+        }
+      ],
+      "variant": ""
+    },
+    "time settings": {
+      "CanNTP": true,
+      "LocalRTC": false,
+      "NTP": false,
+      "NTPSynchronized": false,
+      "RTCTimeUSec": 1609512995000000,
+      "RtcTime": "2021-01-01 15:56:35",
+      "TimeUSec": 1609512996852960,
+      "Timezone": "Europe/Warsaw",
+      "UniversalTime": "2021-01-01 15:56:36"
+    },
+    "update channel": {
+      "certificate_md5": "60ab96a6b8d967a2d585752d6d89f5da",
+      "channel": "beta"
+    }
+  }
+}
